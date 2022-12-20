@@ -28,16 +28,16 @@ export default function Navbar() {
       >
         <ul>
           <li>
-            <a href="/home">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="/products">Products</a>
+            <a href="/">Products</a>
           </li>
           <li>
-            <a href="/pricing">Pricing</a>
+            <a href="/">Pricing</a>
           </li>
 		  <li className="nav-blog">
-            <a href="/blog">Blog</a>
+            <a href="/">Blog</a>
           </li>
 		  
 
@@ -47,8 +47,8 @@ export default function Navbar() {
 		
 
       </div>
-	  <a className="nav-login" href="/login">Log in</a>
-	  <a className="nav-signup" href="/signup">Sign up</a>
+	  <a className="nav-login" href="/">Log in</a>
+	  <a className="nav-signup" href="/">Sign up</a>
 	 
     </nav>
   );
