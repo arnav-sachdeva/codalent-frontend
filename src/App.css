@@ -1,5 +1,5 @@
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .home-page{
@@ -89,13 +89,13 @@ body{
 }
 .home-demo{
     display: block;
-    width: 100%;
+    width: 90%;
     height: 1.7rem;
     
 }
 .home-signup{
     display: block;
-    width: 100%;
+    width: 90%;
     height: 1.7rem;
     margin-bottom: 0.5rem;
 }
