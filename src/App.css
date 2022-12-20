@@ -1,0 +1,89 @@
+.home-page{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-page-title{
+    margin-top: 3.5rem;
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+.home-page p{
+    margin-top: 0;
+    font-size: 1.2rem;
+    width: 40%;
+    letter-spacing: 0.2px;
+    line-height:1.2;
+    color: #667085;
+}
+.home-buttons{
+    
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.home-demo{
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 0.45rem;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: grey;
+    padding: 0.75rem 1rem;
+}
+.home-signup{
+    padding: 0.5rem;
+    color: white;
+    border-radius: 0.45rem;
+    background-color: #7F56D9;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+
+
+.macbook-parent{
+    display: flex;
+    align-items: center;
+}
+
+.macbook{
+    width: 35%;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 550px) {
+body{
+    text-align: center;
+}
+
+.home-page p{
+    width: 80%;
+}
+.home-demo{
+    display: block;
+    width: 100%;
+    height: 1.7rem;
+    margin-bottom: 0.5rem;
+}
+.home-signup{
+    display: block;
+    width: 100%;
+    height: 1.7rem;
+}
+.macbook{
+    width: 85%;
+}
+
+}
