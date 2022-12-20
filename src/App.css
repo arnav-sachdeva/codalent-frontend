@@ -1,3 +1,7 @@
+body{
+    overflow: hidden;
+}
+
 .home-page{
   display: flex;
   align-items: center;
@@ -19,6 +23,12 @@
     color: #667085;
 }
 .home-buttons{
+    
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+.home-buttons-mobile{
     
     text-align: center;
     margin-bottom: 3rem;
@@ -62,6 +72,12 @@
     margin: auto;
 }
 
+@media screen and (min-width:551px){
+    .home-buttons-mobile{
+        display: none;
+    }
+}
+
 
 @media screen and (max-width: 550px) {
 body{
@@ -72,18 +88,22 @@ body{
     width: 80%;
 }
 .home-demo{
-    display: block;
+    /* display: block; */
+    width: 100%;
+    height: 1.7rem;
+    
+}
+.home-signup{
+    /* display: block; */
     width: 100%;
     height: 1.7rem;
     margin-bottom: 0.5rem;
 }
-.home-signup{
-    display: block;
-    width: 100%;
-    height: 1.7rem;
-}
 .macbook{
     width: 85%;
+}
+.home-buttons{
+    display: none;
 }
 
 }
